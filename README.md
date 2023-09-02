@@ -24,7 +24,7 @@ Gli utenti possono inserire le carte giocate e il programma calcolerà il conteg
 ## Come Usare
 
 1. Esegui il programma Java `Main.java`:
-2. Inserisci il numero di giocatori quando richiesto.
+2. Inserisci il numero di giocatori e la quantitá di mazzi quando richiesto.
 3. Inserisci le carte giocate dai giocatori usando l'interfaccia grafica.
 4. Il programma calcolerà automaticamente il conteggio HI-LO e fornirà consigli in base al conteggio.
 5. Puoi anche vedere le probabilità di tirare le carte rimanenti nel mazzo nella sezione delle probabilità.
