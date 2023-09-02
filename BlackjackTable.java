@@ -6,7 +6,7 @@ import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-public class BlackjackTable2 extends JFrame {
+public class BlackjackTable extends JFrame {
 
     private Map<String, Player> players = new HashMap<>();
     private int hiloCount = 0;
@@ -22,7 +22,7 @@ public class BlackjackTable2 extends JFrame {
 
     private int decimalPrecision = 2;
 
-    public BlackjackTable2(int numPlayers, int numDecks) {
+    public BlackjackTable(int numPlayers, int numDecks) {
         setTitle("Blackjack HI-LO Counter");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(600, 650);
@@ -172,7 +172,7 @@ public class BlackjackTable2 extends JFrame {
     public static void main(String[] args) {
         int numPlayers = Integer.parseInt(JOptionPane.showInputDialog("Enter number of players:"));
         int numDecks = Integer.parseInt(JOptionPane.showInputDialog("Enter number of decks:"));
-        SwingUtilities.invokeLater(() -> new BlackjackTable2(numPlayers, numDecks));
+        SwingUtilities.invokeLater(() -> new BlackjackTable(numPlayers, numDecks));
     }
 
     private class Player {
